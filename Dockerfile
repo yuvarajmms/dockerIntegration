@@ -1,4 +1,4 @@
-FROM openjdk:9-b170-jre
+FROM openjdk:8
 COPY . /var/www/java  
 WORKDIR /var/www/java  
 RUN javac FirstApp.java  
